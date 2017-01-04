@@ -1,0 +1,1 @@
+call E:\OpenDJ\bat\ldappasswordmodify.bat "--authzID" "dn:uid=userId,ou=users,ou=ROOT,dc=entRITestApp" "--newpassword" "password2" "--hostName" "blryogesh7" "--port" "636" "--bindDN" "cn=Directory Manager" "--bindPassword" "secret" "--trustAll" "--useSSL" "--noPropertiesFile"

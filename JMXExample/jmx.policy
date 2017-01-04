@@ -1,0 +1,4 @@
+grant codeBase "file:/export/jainy/AJI/Workspace/JMXSecurity/-" {
+	permission java.security.AllPermission;
+};
+

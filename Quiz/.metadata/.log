@@ -1,0 +1,18 @@
+!SESSION 2013-01-24 12:57:27.993 -----------------------------------------------
+eclipse.buildId=3.1.0.201210061306-RELEASE-e42
+java.version=1.6.0_38
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springsource.sts.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springsource.sts.ide
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 0 0 2013-01-24 12:59:04.507
+!MESSAGE Result of converting legacy STS 2.x workspace preferences to 3.x
+!SUBENTRY 1 org.springsource.ide.eclipse.commons.frameworks.core 0 0 2013-01-24 12:59:04.507
+!MESSAGE Converted legacy STS plugin preferences
+!SUBENTRY 1 unknown 0 0 2013-01-24 12:59:04.507
+!MESSAGE OK
+!SUBENTRY 1 org.springsource.ide.eclipse.commons.frameworks.core 0 0 2013-01-24 12:59:04.507
+!MESSAGE Converted legacy Roo plugin state locations
+!SUBENTRY 1 org.springsource.ide.eclipse.commons.frameworks.core 0 0 2013-01-24 12:59:04.508
+!MESSAGE Converted legacy STS plugin state locations

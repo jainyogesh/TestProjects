@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib/ojdbc6-11.2.0.1.0.jar"/>
+	<classpathentry kind="lib" path="lib/openjpa-2.2.1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/home/jainy/jmxremote_optional-1.0.1_04.jar"/>
+	<classpathentry kind="lib" path="/VBoxExt2/Maven-Repo/commons-io/commons-io/1.4/commons-io-1.4-sources.jar"/>
+	<classpathentry kind="lib" path="/VBoxExt2/Maven-Repo/commons-io/commons-io/1.4/commons-io-1.4.jar"/>
+	<classpathentry kind="lib" path="/home/jainy/Maven-Repo/com/aciworldwide/aps/adf/core-fw-impl/1.4.0.7/core-fw-impl-1.4.0.7.jar" sourcepath="/VBoxExt2/Maven-Repo/com/aciworldwide/aps/adf/core-fw-impl/1.4.0.7/core-fw-impl-1.4.0.7-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="com.aciworldwide.aps.adf"/>
+			<attribute name="maven.artifactId" value="core-fw-impl"/>
+			<attribute name="maven.version" value="1.4.0.7"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

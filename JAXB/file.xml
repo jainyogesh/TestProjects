@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<reportMetaObject>
+    <reportTitle>TestReport</reportTitle>
+    <reportSubTitle>Report SubTitle</reportSubTitle>
+    <reportColumns>
+        <entry>
+            <key>Country_Code</key>
+            <value>Country Code</value>
+        </entry>
+        <entry>
+            <key>Country_Name</key>
+            <value>Country Name</value>
+        </entry>
+        <entry>
+            <key>State_Code</key>
+            <value>State Code</value>
+        </entry>
+        <entry>
+            <key>State_Name</key>
+            <value>State Name</value>
+        </entry>
+    </reportColumns>
+</reportMetaObject>
