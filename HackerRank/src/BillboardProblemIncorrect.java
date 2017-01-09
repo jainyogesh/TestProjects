@@ -2,7 +2,7 @@ import java.math.BigInteger;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class BillboardProblem {
+public class BillboardProblemIncorrect {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
@@ -15,7 +15,7 @@ public class BillboardProblem {
 			revenues[i][0] = revenue;
 			revenues[i][1] = 1;
 		}
-		
+
 		scan.close();
 		
 		int[][] revRevenues = new int[totalBillboards][2];
@@ -36,7 +36,36 @@ public class BillboardProblem {
 		for(int i=revRevenues.length-1; i>=0; i--){
 			System.out.print(Arrays.toString(revRevenues[i])+',');
 		}
+		System.out.println();
+		execute1(maxConsecutiveAllowed, revenues);
 
+	}
+	
+	private static void execute1(int maxConsecutiveAllowed, int[][] revenues){
+		int[] MR = new int[revenues.length+1];
+		MR[0] = 0;
+		for(int i=1; i< revenues.length+1; i++){
+
+			if(i<=maxConsecutiveAllowed){
+				MR[i] = MR[i-1] + revenues[i-1][0];
+			}
+			else{
+				MR[i] = MR[i-maxConsecutiveAllowed+1] > MR[i-maxConsecutiveAllowed]? 
+						(MR[i-maxConsecutiveAllowed+1] + getSum(revenues,i-maxConsecutiveAllowed+1,i-1)):(MR[i-maxConsecutiveAllowed]+getSum(revenues,i-maxConsecutiveAllowed+1,i));
+			}
+		}
+		
+		System.out.println(MR[revenues.length-1]);
+		System.out.println(Arrays.toString(MR));
+	}
+	
+	static int getSum(int[][] revenues, int start, int end){
+		int sum = 0;
+		for(int i=start; i<=end && i<revenues.length; i++){
+			sum = sum + revenues[i][0];
+		}
+		
+		return sum;
 	}
 
 	private static void excute(int maxConsecutiveAllowed, int[][] revenues) {

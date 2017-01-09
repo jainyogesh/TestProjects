@@ -6,7 +6,12 @@ import java.util.Deque;
 import java.util.List;
 import java.util.Scanner;
 
-public class Solution {
+//ref:https://www.hackerrank.com/challenges/billboards?h_r=next-challenge&h_v=zen
+/**
+ * @author YJ
+ * @See <a href="https://www.hackerrank.com/challenges/billboards?h_r=next-challenge&h_v=zen">https://www.hackerrank.com/challenges/billboards?h_r=next-challenge&h_v=zen</a>
+ */
+public class BillboardProblem {
 
 	static long[] revenues = null;
 	static long[] minLossPossible = null;
