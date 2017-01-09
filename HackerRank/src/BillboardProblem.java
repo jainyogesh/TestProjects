@@ -1,95 +1,67 @@
-import java.math.BigInteger;
+import java.util.ArrayDeque;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.Deque;
+import java.util.List;
 import java.util.Scanner;
 
-public class BillboardProblem {
+public class Solution {
 
+	static long[] revenues = null;
+	static long[] minLossPossible = null;
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		int totalBillboards = scan.nextInt();
 		int maxConsecutiveAllowed = scan.nextInt();
 		
-		int[][] revenues = new int[totalBillboards][2];
-		for(int i=0; i< totalBillboards; i++){
+		//Assigning revenues as per billboard numbers to avoid confusion
+		revenues = new long[totalBillboards+1];
+		revenues[0] = 0;
+		long allBoardRevenue = 0;
+		for(int i=1; i< revenues.length; i++){
 			int revenue = scan.nextInt();
-			revenues[i][0] = revenue;
-			revenues[i][1] = 1;
+			revenues[i] = revenue;
+			allBoardRevenue +=revenue;
 		}
-		
+		minLossPossible = new long[totalBillboards + 1];
 		scan.close();
 		
-		int[][] revRevenues = new int[totalBillboards][2];
-		for(int i=0; i< totalBillboards; i++){
-			int revenue = revenues[totalBillboards-i-1][0];
-			revRevenues[i][0] = revenue;
-			revRevenues[i][1] = 1;
-		}
+		//Assigning minLossPossible as per billboard numbers to avoid confusion
 		
-		excute(maxConsecutiveAllowed, revenues);
+		minLossPossible[0] = 0;
+		List<Integer> earlierMins = new ArrayList<Integer>();
+		Deque<Integer> minQueue = new ArrayDeque<Integer>();
 		
-		for(int i=0; i< revenues.length; i++){
-			System.out.print(Arrays.toString(revenues[i])+',');
-		}
-		System.out.println("\nReverse");
-		excute(maxConsecutiveAllowed, revRevenues);
-		
-		for(int i=revRevenues.length-1; i>=0; i--){
-			System.out.print(Arrays.toString(revRevenues[i])+',');
-		}
-
-	}
-
-	private static void excute(int maxConsecutiveAllowed, int[][] revenues) {
-		int groupLength = 0;
-		int offset = 0;
-		int lastMinIndex=-1;
-		int lastPrecursorLength = -1;
-		for(int i=0; i< revenues.length; i++){
-			groupLength++;
-			if(groupLength > maxConsecutiveAllowed){
-				int currentIndex = i;
-				int minIndex = findMinIndex(revenues, offset, currentIndex);
-				int precursorLength = minIndex-offset;
+		for(int i=1; i<minLossPossible.length; i++){
+			if(i<=maxConsecutiveAllowed){
+				minLossPossible[i] = 0;
+				//earlierMins.add(minLossPossible[i-1] + revenues[i]);
+				long current = getLoss(i);
 				
-				//check and activate lastMinIndex
-				if(lastMinIndex > -1 && lastPrecursorLength > -1){
-					if((lastPrecursorLength + 1 + precursorLength)<=maxConsecutiveAllowed){
-						revenues[lastMinIndex][1] = 1;
-						precursorLength = lastPrecursorLength + 1 + precursorLength;
-					}
+				while(!minQueue.isEmpty() && current <= getLoss(minQueue.peekLast())){
+					minQueue.pollLast();
 				}
+				minQueue.addLast(i);
+			}else{
+				long current = getLoss(i);
 				
-				lastMinIndex = minIndex;
-				lastPrecursorLength = precursorLength;
-				offset = minIndex + 1;
+				while(!minQueue.isEmpty() && current <= getLoss(minQueue.peekLast())){
+					minQueue.pollLast();
+				}
+				minQueue.addLast(i);
+				minLossPossible[i] = getLoss(minQueue.peekFirst());
 				
-				groupLength = currentIndex-offset+1;
-				
+				 if (minQueue.peekFirst() == i - maxConsecutiveAllowed) minQueue.pollFirst();
 			}
 		}
 		
-		BigInteger totalRevenue = BigInteger.ZERO;
-		for(int i=0; i< revenues.length; i++){
-			if(revenues[i][1] != -1){
-				totalRevenue = totalRevenue.add(new BigInteger(String.valueOf(revenues[i][0])));
-			}
-		}
-		
-		System.out.println(totalRevenue);
-	}
-	
-	static int findMinIndex(int[][] revenues, int offset, int endIndex){
-		int minRevenue = revenues[offset][0];
-		int minPosition = offset;
-		for(int i = offset; i <= endIndex; i++){
-			int revenue = revenues[i][0];
-			if(revenue < minRevenue){
-				minRevenue = revenue;
-				minPosition = i;
-			}
-		}
-		revenues[minPosition][1] = -1;
-		return minPosition;
-	}
+		System.out.println(allBoardRevenue - minLossPossible[totalBillboards]);
+		//System.out.println(Arrays.toString(minLossPossible));
 
+	}
+	private static long getLoss(int i) {
+		long current = minLossPossible[i-1] + revenues[i];
+		return current;
+	}
 }
