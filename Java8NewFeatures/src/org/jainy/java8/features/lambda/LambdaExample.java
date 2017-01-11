@@ -6,6 +6,8 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Objects;
 
+import org.jainy.java8.Student;
+
 public class LambdaExample {
 
 	public static void main(String[] args){
@@ -28,7 +30,7 @@ public class LambdaExample {
 
 			@Override
 			public int compare(Student o1, Student o2) {
-				return o2.name.compareTo(o1.name);
+				return o2.getName().compareTo(o1.getName());
 			}
 		});
 		
@@ -48,7 +50,7 @@ public class LambdaExample {
 		students.add(s2);
 		students.add(s3);
 		
-		Collections.sort(students,(Comparator<Student>) (o1, o2)-> o1.name.compareTo(o2.name));
+		Collections.sort(students,(Comparator<Student>) (o1, o2)-> o1.getName().compareTo(o2.getName()));
 		
 		System.out.println(students);
 		
@@ -56,24 +58,5 @@ public class LambdaExample {
 		System.out.println(students);
 	}
 	
-	class Student implements Comparable<Student>{
-		String name;
-		int age;
-		
-		Student(String name, int age){
-			this.name = name;
-			this.age = age;
-		}
-		
-		public String toString(){
-			return name + "-" + age;
-		}
 
-		@Override
-		public int compareTo(Student o) {
-			if (this.age== o.age)
-				return 0;
-			return this.age > o.age ? 1:-1;
-		}
-	}
 }
