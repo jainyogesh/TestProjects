@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Predicate;
 
-import org.jainy.java8.Student;
+import org.jainy.Student;
 
 public class AggregateOperationsExample {
 

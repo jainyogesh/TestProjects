@@ -3,7 +3,7 @@ package org.jainy.java.existing.features.refrences;
 import java.lang.ref.PhantomReference;
 import java.lang.ref.ReferenceQueue;
 
-import org.jainy.java8.Student;
+import org.jainy.Student;
 
 //Not sure how to demo it
 public class PhantomRefrenceExample {

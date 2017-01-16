@@ -2,7 +2,7 @@ package org.jainy.java.existing.features.refrences;
 
 import java.lang.ref.SoftReference;
 
-import org.jainy.java8.Student;
+import org.jainy.Student;
 
 public class SoftRefrenceExample {
 

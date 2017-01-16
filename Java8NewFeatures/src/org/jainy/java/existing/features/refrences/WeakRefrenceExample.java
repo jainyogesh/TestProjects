@@ -2,7 +2,7 @@ package org.jainy.java.existing.features.refrences;
 
 import java.lang.ref.WeakReference;
 
-import org.jainy.java8.Student;
+import org.jainy.Student;
 
 public class WeakRefrenceExample {
 
