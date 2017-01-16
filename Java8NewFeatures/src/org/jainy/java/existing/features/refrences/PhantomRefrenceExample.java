@@ -1,4 +1,4 @@
-package org.jain.java.existing.features.refrences;
+package org.jainy.java.existing.features.refrences;
 
 import java.lang.ref.PhantomReference;
 import java.lang.ref.ReferenceQueue;
