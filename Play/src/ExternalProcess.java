@@ -1,6 +1,6 @@
 import java.io.InputStream;
 
-import org.apache.commons.io.IOUtils;
+//import org.apache.commons.io.IOUtils;
 
 
 
@@ -17,10 +17,10 @@ public class ExternalProcess {
     pb.redirectErrorStream(true);
     Process p = pb.start();
     InputStream is = p.getInputStream();
-    String s1 = IOUtils.toString(is);
+    //String s1 = IOUtils.toString(is);
     p.waitFor();
     is.close();
-    System.out.println(s1);
+    //System.out.println(s1);
   }
 
 }
