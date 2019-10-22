@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<classpath>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="lib/resource.jar"/>
-	<classpathentry kind="lib" path="resources"/>
-	<classpathentry kind="lib" path="/home/jainy/AJI/Installed/JavaSF/webapps/lib/jdom.jar"/>
-	<classpathentry kind="output" path="bin"/>
-</classpath>
