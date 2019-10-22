@@ -1,3 +1,0 @@
-#!/usr/bin/perl -w
-
-system("java -cp /home/jainy/Learning/TestProjects/Play/bin UserInputTest") == 0 or die("Failed to execute $!");
