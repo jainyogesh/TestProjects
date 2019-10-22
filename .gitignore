@@ -2,7 +2,8 @@
 **/.classpath
 **/.project
 **/.settings/
-**/.idea/
+**/.idea
 **/*.log
 **/*.zip
 **/*.iml
+.idea
