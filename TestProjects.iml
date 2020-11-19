@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="jar://$MODULE_DIR$/FileUtil/target/FileUtil-0.0.1-SNAPSHOT.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/Java7NewFeatures/resources/foo.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/JMXExample/lib/resource.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/PersonalSpringTest/classpathtest.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/PersonalSpringTest/lib/classpathtest.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/PersonalSpringTest/lib/com.springsource.org.aopalliance-1.0.0.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/PersonalSpringTest/lib/com.springsource.slf4j.api-1.5.6.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/PersonalSpringTest/lib/commons-dbcp-1.4.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/PersonalSpringTest/lib/commons-httpclient-3.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/PersonalSpringTest/lib/commons-lang-2.6.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/PersonalSpringTest/lib/commons-logging-1.1.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/PersonalSpringTest/lib/commons-pool-1.5.3.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/PersonalSpringTest/lib/log4j-1.2.16.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/PersonalSpringTest/lib/org.springframework.aop-3.0.1.RELEASE.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/PersonalSpringTest/lib/org.springframework.asm-3.0.1.RELEASE.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/PersonalSpringTest/lib/org.springframework.beans-3.0.1.RELEASE.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/PersonalSpringTest/lib/org.springframework.context-3.0.1.RELEASE.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/PersonalSpringTest/lib/org.springframework.context.support-3.0.1.RELEASE.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/PersonalSpringTest/lib/org.springframework.core-3.0.1.RELEASE.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/PersonalSpringTest/lib/org.springframework.expression-3.0.1.RELEASE.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/PersonalSpringTest/lib/org.springframework.jdbc-3.0.1.RELEASE.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/PersonalSpringTest/lib/org.springframework.test-3.0.1.RELEASE.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/PersonalSpringTest/lib/org.springframework.transaction-3.0.1.RELEASE.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/PersonalSpringTest/lib/org.springframework.web-3.0.1.RELEASE.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/Play/lib/ojdbc6-11.2.0.1.0.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/Play/lib/openjpa-2.2.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/Quiz/.metadata/.plugins/org.springframework.ide.eclipse.osgi.targetdefinition/3.1.0.201210040510-RELEASE/target/com.springsource.edu.emory.mathcs.backport-3.1.0.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/Quiz/.metadata/.plugins/org.springframework.ide.eclipse.osgi.targetdefinition/3.1.0.201210040510-RELEASE/target/com.springsource.net.sf.cglib-2.1.3.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/Quiz/.metadata/.plugins/org.springframework.ide.eclipse.osgi.targetdefinition/3.1.0.201210040510-RELEASE/target/com.springsource.org.aopalliance-1.0.0.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/Quiz/.metadata/.plugins/org.springframework.ide.eclipse.osgi.targetdefinition/3.1.0.201210040510-RELEASE/target/com.springsource.org.apache.log4j-1.2.15.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/Quiz/.metadata/.plugins/org.springframework.ide.eclipse.osgi.targetdefinition/3.1.0.201210040510-RELEASE/target/com.springsource.org.objectweb.asm-2.2.3.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/Quiz/.metadata/.plugins/org.springframework.ide.eclipse.osgi.targetdefinition/3.1.0.201210040510-RELEASE/target/com.springsource.slf4j.api-1.5.6.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/Quiz/.metadata/.plugins/org.springframework.ide.eclipse.osgi.targetdefinition/3.1.0.201210040510-RELEASE/target/com.springsource.slf4j.log4j-1.5.6.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/Quiz/.metadata/.plugins/org.springframework.ide.eclipse.osgi.targetdefinition/3.1.0.201210040510-RELEASE/target/com.springsource.slf4j.org.apache.commons.logging-1.5.6.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/Quiz/.metadata/.plugins/org.springframework.ide.eclipse.osgi.targetdefinition/3.1.0.201210040510-RELEASE/target/org.eclipse.osgi-3.5.1.R35x_v20091005.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/Quiz/.metadata/.plugins/org.springframework.ide.eclipse.osgi.targetdefinition/3.1.0.201210040510-RELEASE/target/org.springframework.aop-3.0.1.RELEASE-A.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/Quiz/.metadata/.plugins/org.springframework.ide.eclipse.osgi.targetdefinition/3.1.0.201210040510-RELEASE/target/org.springframework.beans-3.0.1.RELEASE-A.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/Quiz/.metadata/.plugins/org.springframework.ide.eclipse.osgi.targetdefinition/3.1.0.201210040510-RELEASE/target/org.springframework.context-3.0.1.RELEASE-A.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/Quiz/.metadata/.plugins/org.springframework.ide.eclipse.osgi.targetdefinition/3.1.0.201210040510-RELEASE/target/org.springframework.context.support-3.0.1.RELEASE-A.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/Quiz/.metadata/.plugins/org.springframework.ide.eclipse.osgi.targetdefinition/3.1.0.201210040510-RELEASE/target/org.springframework.core-3.0.1.RELEASE-A.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/Quiz/.metadata/.plugins/org.springframework.ide.eclipse.osgi.targetdefinition/3.1.0.201210040510-RELEASE/target/org.springframework.osgi.core-1.2.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/Quiz/.metadata/.plugins/org.springframework.ide.eclipse.osgi.targetdefinition/3.1.0.201210040510-RELEASE/target/org.springframework.osgi.extender-1.2.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/Quiz/.metadata/.plugins/org.springframework.ide.eclipse.osgi.targetdefinition/3.1.0.201210040510-RELEASE/target/org.springframework.osgi.extensions.annotation-1.2.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/Quiz/.metadata/.plugins/org.springframework.ide.eclipse.osgi.targetdefinition/3.1.0.201210040510-RELEASE/target/org.springframework.osgi.io-1.2.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/Test_JMX_Client/lib/jmxremote_optional-repackaged-4.1.1.jar!/" />
+    <src_description expected_position="0">
+      <src_folder value="file://$MODULE_DIR$/AppServer/app1src" expected_position="0" />
+      <src_folder value="file://$MODULE_DIR$/AppServer/app2src" expected_position="1" />
+      <src_folder value="file://$MODULE_DIR$/AppServer/src" expected_position="2" />
+      <src_folder value="file://$MODULE_DIR$/Classloading/src" expected_position="3" />
+      <src_folder value="file://$MODULE_DIR$/Classloading/srcExclude" expected_position="4" />
+      <src_folder value="file://$MODULE_DIR$/entitlements/src/main/java" expected_position="5" />
+      <src_folder value="file://$MODULE_DIR$/FileUtil/src/main/java" expected_position="6" />
+      <src_folder value="file://$MODULE_DIR$/FileUtil/src/test/java" expected_position="7" />
+      <src_folder value="file://$MODULE_DIR$/Java7NewFeatures/resources/original" expected_position="8" />
+      <src_folder value="file://$MODULE_DIR$/Java7NewFeatures/resources/updated" expected_position="9" />
+      <src_folder value="file://$MODULE_DIR$/Java7NewFeatures/src" expected_position="10" />
+      <src_folder value="file://$MODULE_DIR$/JAXB/src" expected_position="11" />
+      <src_folder value="file://$MODULE_DIR$/JMX" expected_position="12" />
+      <src_folder value="file://$MODULE_DIR$/JMX_Utils/src" expected_position="13" />
+      <src_folder value="file://$MODULE_DIR$/JMX/ITM/AgentProject/ACIApplMgmtITMAgentInstaller/kbm/UA_APP/BUNDLE/ira/agent/common/odi2rb/package" expected_position="14" />
+      <src_folder value="file://$MODULE_DIR$/JMX/ITM/AgentProject/ACIApplMgmtITMAgentInstaller/kbm/UA_APP/BUNDLE/ira/agent/common/src/kbm" expected_position="15" />
+      <src_folder value="file://$MODULE_DIR$/JMXExample/src" expected_position="16" />
+      <src_folder value="file://$MODULE_DIR$/LearnJaxb/src" expected_position="17" />
+      <src_folder value="file://$MODULE_DIR$/Parser/src" expected_position="18" />
+      <src_folder value="file://$MODULE_DIR$/PersonalSpringTest/src" expected_position="19" />
+      <src_folder value="file://$MODULE_DIR$/Play/src" expected_position="20" />
+      <src_folder value="file://$MODULE_DIR$/Quiz/src" expected_position="21" />
+      <src_folder value="file://$MODULE_DIR$/RMITest/src" expected_position="22" />
+      <src_folder value="file://$MODULE_DIR$/SecureDelete" expected_position="23" />
+      <src_folder value="file://$MODULE_DIR$/Test_JMX_Client/src" expected_position="24" />
+    </src_description>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/AppServer/app1lib" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/AppServer/app1src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AppServer/app2src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AppServer/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Classloading/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Classloading/srcExclude" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/entitlements/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FileUtil/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FileUtil/src/test/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Java7NewFeatures/resources/original" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Java7NewFeatures/resources/updated" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Java7NewFeatures/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JAXB/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JMX" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JMX_Utils/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JMX/ITM/AgentProject/ACIApplMgmtITMAgentInstaller/kbm/UA_APP/BUNDLE/ira/agent/common/odi2rb/package" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JMX/ITM/AgentProject/ACIApplMgmtITMAgentInstaller/kbm/UA_APP/BUNDLE/ira/agent/common/src/kbm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JMXExample/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LearnJaxb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Parser/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PersonalSpringTest/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Play/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Quiz/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RMITest/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SecureDelete" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Test_JMX_Client/src" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="FileUtil-0.0.1-SNAPSHOT.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/FileUtil/target/FileUtil-0.0.1-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="foo.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Java7NewFeatures/resources/foo.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="resource.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/JMXExample/lib/resource.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="classpathtest.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/PersonalSpringTest/classpathtest.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="PersonalSpringTest/lib/classpathtest.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/PersonalSpringTest/lib/classpathtest.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="com.springsource.org.aopalliance-1.0.0.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/PersonalSpringTest/lib/com.springsource.org.aopalliance-1.0.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="com.springsource.slf4j.api-1.5.6.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/PersonalSpringTest/lib/com.springsource.slf4j.api-1.5.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-dbcp-1.4.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/PersonalSpringTest/lib/commons-dbcp-1.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-httpclient-3.1.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/PersonalSpringTest/lib/commons-httpclient-3.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-lang-2.6.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/PersonalSpringTest/lib/commons-lang-2.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-logging-1.1.1.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/PersonalSpringTest/lib/commons-logging-1.1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-pool-1.5.3.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/PersonalSpringTest/lib/commons-pool-1.5.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="log4j-1.2.16.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/PersonalSpringTest/lib/log4j-1.2.16.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.springframework.aop-3.0.1.RELEASE.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/PersonalSpringTest/lib/org.springframework.aop-3.0.1.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.springframework.asm-3.0.1.RELEASE.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/PersonalSpringTest/lib/org.springframework.asm-3.0.1.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.springframework.beans-3.0.1.RELEASE.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/PersonalSpringTest/lib/org.springframework.beans-3.0.1.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.springframework.context-3.0.1.RELEASE.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/PersonalSpringTest/lib/org.springframework.context-3.0.1.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.springframework.context.support-3.0.1.RELEASE.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/PersonalSpringTest/lib/org.springframework.context.support-3.0.1.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.springframework.core-3.0.1.RELEASE.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/PersonalSpringTest/lib/org.springframework.core-3.0.1.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.springframework.expression-3.0.1.RELEASE.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/PersonalSpringTest/lib/org.springframework.expression-3.0.1.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.springframework.jdbc-3.0.1.RELEASE.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/PersonalSpringTest/lib/org.springframework.jdbc-3.0.1.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.springframework.test-3.0.1.RELEASE.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/PersonalSpringTest/lib/org.springframework.test-3.0.1.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.springframework.transaction-3.0.1.RELEASE.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/PersonalSpringTest/lib/org.springframework.transaction-3.0.1.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.springframework.web-3.0.1.RELEASE.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/PersonalSpringTest/lib/org.springframework.web-3.0.1.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ojdbc6-11.2.0.1.0.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Play/lib/ojdbc6-11.2.0.1.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="openjpa-2.2.1.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Play/lib/openjpa-2.2.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="com.springsource.edu.emory.mathcs.backport-3.1.0.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Quiz/.metadata/.plugins/org.springframework.ide.eclipse.osgi.targetdefinition/3.1.0.201210040510-RELEASE/target/com.springsource.edu.emory.mathcs.backport-3.1.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="com.springsource.net.sf.cglib-2.1.3.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Quiz/.metadata/.plugins/org.springframework.ide.eclipse.osgi.targetdefinition/3.1.0.201210040510-RELEASE/target/com.springsource.net.sf.cglib-2.1.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Quiz/.metadata/.plugins/org.springframework.ide.eclipse.osgi.targetdefinition/3.1.0.201210040510-RELEASE/target/com.springsource.org.aopalliance-1.0.0.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Quiz/.metadata/.plugins/org.springframework.ide.eclipse.osgi.targetdefinition/3.1.0.201210040510-RELEASE/target/com.springsource.org.aopalliance-1.0.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="com.springsource.org.apache.log4j-1.2.15.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Quiz/.metadata/.plugins/org.springframework.ide.eclipse.osgi.targetdefinition/3.1.0.201210040510-RELEASE/target/com.springsource.org.apache.log4j-1.2.15.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="com.springsource.org.objectweb.asm-2.2.3.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Quiz/.metadata/.plugins/org.springframework.ide.eclipse.osgi.targetdefinition/3.1.0.201210040510-RELEASE/target/com.springsource.org.objectweb.asm-2.2.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Quiz/.metadata/.plugins/org.springframework.ide.eclipse.osgi.targetdefinition/3.1.0.201210040510-RELEASE/target/com.springsource.slf4j.api-1.5.6.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Quiz/.metadata/.plugins/org.springframework.ide.eclipse.osgi.targetdefinition/3.1.0.201210040510-RELEASE/target/com.springsource.slf4j.api-1.5.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="com.springsource.slf4j.log4j-1.5.6.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Quiz/.metadata/.plugins/org.springframework.ide.eclipse.osgi.targetdefinition/3.1.0.201210040510-RELEASE/target/com.springsource.slf4j.log4j-1.5.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="com.springsource.slf4j.org.apache.commons.logging-1.5.6.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Quiz/.metadata/.plugins/org.springframework.ide.eclipse.osgi.targetdefinition/3.1.0.201210040510-RELEASE/target/com.springsource.slf4j.org.apache.commons.logging-1.5.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.eclipse.osgi-3.5.1.R35x_v20091005.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Quiz/.metadata/.plugins/org.springframework.ide.eclipse.osgi.targetdefinition/3.1.0.201210040510-RELEASE/target/org.eclipse.osgi-3.5.1.R35x_v20091005.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.springframework.aop-3.0.1.RELEASE-A.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Quiz/.metadata/.plugins/org.springframework.ide.eclipse.osgi.targetdefinition/3.1.0.201210040510-RELEASE/target/org.springframework.aop-3.0.1.RELEASE-A.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.springframework.beans-3.0.1.RELEASE-A.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Quiz/.metadata/.plugins/org.springframework.ide.eclipse.osgi.targetdefinition/3.1.0.201210040510-RELEASE/target/org.springframework.beans-3.0.1.RELEASE-A.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.springframework.context-3.0.1.RELEASE-A.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Quiz/.metadata/.plugins/org.springframework.ide.eclipse.osgi.targetdefinition/3.1.0.201210040510-RELEASE/target/org.springframework.context-3.0.1.RELEASE-A.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.springframework.context.support-3.0.1.RELEASE-A.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Quiz/.metadata/.plugins/org.springframework.ide.eclipse.osgi.targetdefinition/3.1.0.201210040510-RELEASE/target/org.springframework.context.support-3.0.1.RELEASE-A.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.springframework.core-3.0.1.RELEASE-A.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Quiz/.metadata/.plugins/org.springframework.ide.eclipse.osgi.targetdefinition/3.1.0.201210040510-RELEASE/target/org.springframework.core-3.0.1.RELEASE-A.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.springframework.osgi.core-1.2.1.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Quiz/.metadata/.plugins/org.springframework.ide.eclipse.osgi.targetdefinition/3.1.0.201210040510-RELEASE/target/org.springframework.osgi.core-1.2.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.springframework.osgi.extender-1.2.1.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Quiz/.metadata/.plugins/org.springframework.ide.eclipse.osgi.targetdefinition/3.1.0.201210040510-RELEASE/target/org.springframework.osgi.extender-1.2.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.springframework.osgi.extensions.annotation-1.2.1.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Quiz/.metadata/.plugins/org.springframework.ide.eclipse.osgi.targetdefinition/3.1.0.201210040510-RELEASE/target/org.springframework.osgi.extensions.annotation-1.2.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.springframework.osgi.io-1.2.1.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Quiz/.metadata/.plugins/org.springframework.ide.eclipse.osgi.targetdefinition/3.1.0.201210040510-RELEASE/target/org.springframework.osgi.io-1.2.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jmxremote_optional-repackaged-4.1.1.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Test_JMX_Client/lib/jmxremote_optional-repackaged-4.1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="inheritedJdk" />
+  </component>
+</module>
