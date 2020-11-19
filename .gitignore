@@ -4,7 +4,8 @@
 **/.settings/
 **/*.log
 **/*.zip
-.idea
+.idea/*.xml
+.idea/codeStyles/
 **/bin/
 **/app1lib/
 **/app2lib/
