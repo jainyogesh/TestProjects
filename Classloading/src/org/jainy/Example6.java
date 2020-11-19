@@ -14,6 +14,7 @@ public class Example6 {
 
 			Class cls1 = Thread.currentThread().getContextClassLoader().loadClass("org.jainy.util.SampleObject");
 			cls1.newInstance();
+			//Try commenting above line and see if output changes
 			System.out.println("\n***Thread.currentThread().getContextClassLoader().loadClass - Start***\n\n\n");
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
