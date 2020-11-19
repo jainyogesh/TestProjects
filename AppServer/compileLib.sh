@@ -8,4 +8,14 @@ javac -cp bin -d app2lib/  app2src/org/jainy/application/*.java
 }
 
 compile
-#java -cp bin org.jainy.server.AppServer -DclassLoader.childFirst=true app1=org.jainy.application.App1 app2=org.jainy.application.App2
+echo
+echo
+echo "****************************************"
+echo "Running with child classloader first..."
+java -cp bin -DclassLoader.childFirst=true org.jainy.server.AppServer app1=org.jainy.application.App1 app2=org.jainy.application.App2
+
+echo
+echo
+echo "****************************************"
+echo "Running with parent classloader first..."
+java -cp bin -DclassLoader.childFirst=false org.jainy.server.AppServer app1=org.jainy.application.App1 app2=org.jainy.application.App2
