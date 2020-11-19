@@ -1,6 +1,8 @@
 #!/bin/bash
 
 compile () {
+mkdir -p app1lib
+mkdir -p app2lib
 javac -cp bin -d app1lib/  app1src/org/jainy/application/*.java
 javac -cp bin -d app2lib/  app2src/org/jainy/application/*.java
 }
