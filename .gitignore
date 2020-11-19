@@ -5,6 +5,7 @@
 **/.idea
 **/*.log
 **/*.zip
-**/*.iml
 .idea
 **/bin/
+**/app1lib/
+**/app2lib/
