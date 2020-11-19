@@ -1,5 +1,6 @@
 package org.jainy;
 
+import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
 
@@ -22,7 +23,8 @@ public class Example7 {
 				myApp.process();
 			}
 		});
-		t.setContextClassLoader(new CustomClassLoader(new URL[] { new URL("file:///export/jainy/AJI/Workspace/Classloading/bin/") }, Thread
+		URL binUrl = new File("./Classloading/bin/").toURI().toURL();
+		t.setContextClassLoader(new CustomClassLoader(new URL[] { binUrl }, Thread
 				.currentThread().getContextClassLoader(), 1));
 		t.start();
 

@@ -1,5 +1,6 @@
 package org.jainy;
 
+import java.io.File;
 import java.lang.reflect.Method;
 import java.net.URL;
 import java.net.URLClassLoader;
@@ -9,11 +10,15 @@ public class Example4 {
 	public static void main(String[] args) {
 
 		try {
-			URLClassLoader loader1 = new URLClassLoader(new URL[] { new URL("file:///export/jainy/AJI/Workspace/Classloading/binExclude/") });
+
+			URL binExcludeUrl = new File("./Classloading/binExclude/").toURI().toURL();
+
+
+			URLClassLoader loader1 = new URLClassLoader(new URL[] { binExcludeUrl });
 			Class<?> cls1 = loader1.loadClass("org.jainy.exclude.Excluded");
 			Object obj1 = cls1.newInstance();
 
-			URLClassLoader loader2 = new URLClassLoader(new URL[] { new URL("file:///export/jainy/AJI/Workspace/Classloading/binExclude/") });
+			URLClassLoader loader2 = new URLClassLoader(new URL[] { binExcludeUrl});
 			Class<?> cls2 = loader2.loadClass("org.jainy.exclude.Excluded");
 			Object obj2 = cls2.newInstance();
 
