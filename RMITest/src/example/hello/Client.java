@@ -12,12 +12,12 @@ public class Client {
         String host = (args.length < 1) ? null : args[0];
         try {
             Registry registry = LocateRegistry.getRegistry(host, 43251);
-            //Hello stub = (Hello) registry.lookup("Hello");
-            //String response = stub.sayHello();
-            
-            Child stub = (Child) registry.lookup("Hello");
-            String response = stub.getName();
-            System.out.println("response: " + response);
+
+            Hello helloRemote = (Hello) registry.lookup("Hello");
+            System.out.println("Hello Remote Response: " + helloRemote.sayHello());
+
+            Child childRemote = (Child) registry.lookup("Child");
+            System.out.println("Child Remote Response: "  + childRemote.getName());
         } catch (Exception e) {
             System.err.println("Client exception: " + e.toString());
             e.printStackTrace();

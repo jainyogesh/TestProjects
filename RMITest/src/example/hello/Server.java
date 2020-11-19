@@ -6,28 +6,28 @@ import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 import java.util.Map;
         
-public class Server implements Hello {
+public class Server {
 	
 	private static int port = 43251;
         
     public Server() {}
-
-    public String sayHello() {
-        return "Hello, world!";
-    }
         
     public static void main(String args[]) {
         
         try {
-        	createRMIRegistry();
-            //Server obj = new Server();
-        	ChildImpl obj = new ChildImpl();
-           // Hello stub = (Hello) UnicastRemoteObject.exportObject(obj, port);
-        	Child stub = (Child) UnicastRemoteObject.exportObject(obj, port);
+          Registry registry = LocateRegistry.createRegistry(port);
 
-            // Bind the remote object's stub in the registry
-            Registry registry = LocateRegistry.getRegistry(port);
-            registry.bind("Hello", stub);
+        	Child childObj = new ChildImpl();
+          Child childStub = (Child) UnicastRemoteObject.exportObject(childObj, port);
+          // Bind the remote object's stub in the registry
+          registry.bind("Child", childStub);
+
+          Hello helloObj = new HelloImpl();
+          Hello helloStub = (Hello) UnicastRemoteObject.exportObject(helloObj, port);
+          // Bind the remote object's stub in the registry
+          registry.bind("Hello", helloStub);
+
+
 
             System.err.println("Server ready");
         } catch (Exception e) {
@@ -36,11 +36,5 @@ public class Server implements Hello {
         }
     }
     
-    private static void createRMIRegistry() {
-		try {
-			LocateRegistry.createRegistry(port);
-		} catch (RemoteException e) {
-			e.printStackTrace();
-		}
-	}
+
 }

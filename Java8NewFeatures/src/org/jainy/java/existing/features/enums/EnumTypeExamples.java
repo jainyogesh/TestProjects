@@ -6,12 +6,12 @@ public class EnumTypeExamples {
 		System.out.println("EnumTypeExamples constructor");
 	}
 	
-	static EnumTypeExamples ete = new EnumTypeExamples();
-	
+
 	static{
 		System.out.println("This should print first during static block execution");
 	}
-	
+
+
 	private enum Singleton{
 		
 		
@@ -31,6 +31,8 @@ public class EnumTypeExamples {
 			System.out.println("This should print fifth as Singleton instance will be created now");
 		}
 	}
+
+	static EnumTypeExamples ete = new EnumTypeExamples();
 
 	public static void main(String[] args) {
 		

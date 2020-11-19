@@ -29,7 +29,7 @@ public class MarshallData {
 
 		try {
 
-			File file = new File("file.xml");
+			File file = new File("./JAXB/file.xml");
 			JAXBContext jaxbContext = JAXBContext
 					.newInstance(ReportMetaObject.class);
 			Marshaller jaxbMarshaller = jaxbContext.createMarshaller();

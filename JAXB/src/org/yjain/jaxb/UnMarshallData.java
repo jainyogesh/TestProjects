@@ -14,7 +14,7 @@ public class UnMarshallData {
 	public static void main(String[] args) {
 		try {
 			 
-			File file = new File("file.xml");
+			File file = new File("./JAXB/file.xml");
 			JAXBContext jaxbContext = JAXBContext.newInstance(ReportMetaObject.class);
 	 
 			Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();

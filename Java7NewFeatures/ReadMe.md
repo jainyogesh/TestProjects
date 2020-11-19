@@ -1,0 +1,1 @@
+This project showcases some Java 7 new features

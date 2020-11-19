@@ -10,7 +10,7 @@ public class RunTest {
 		obj.setName("Jain");
 		
 		System.out.println(obj);
-		obj.notifyObservers("changed");
+
 	}
 
 }

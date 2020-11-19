@@ -1,0 +1,1 @@
+This project contains example of JAXB

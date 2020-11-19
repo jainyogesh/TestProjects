@@ -1,0 +1,1 @@
+This is sample RMI program

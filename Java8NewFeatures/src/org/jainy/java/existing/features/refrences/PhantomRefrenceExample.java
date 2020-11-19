@@ -13,8 +13,8 @@ public class PhantomRefrenceExample {
 		ReferenceQueue<Student> refQueue = new ReferenceQueue<>();
 		PhantomReference<Student> studentRef = new PhantomReference<Student>(s, refQueue);
 		System.out.println(s);
-		s = null;
-		System.gc();
+		//s = null;
+		//System.gc();
 		
 		System.out.println(refQueue.poll());
 
