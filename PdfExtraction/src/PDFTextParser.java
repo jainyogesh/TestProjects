@@ -41,7 +41,8 @@ public class PDFTextParser {
 			cosDoc = parser.getDocument();
 			pdfStripper = new PDFTextStripper();
 			pdDoc = new PDDocument(cosDoc);
-			pdDoc.openProtection(new StandardDecryptionMaterial("1086yoge2207"));
+			// TODO Enter password below
+			pdDoc.openProtection(new StandardDecryptionMaterial(""));
 			pdfStripper.setStartPage(1);
 			pdfStripper.setEndPage(1);
 			parsedText = pdfStripper.getText(pdDoc);
