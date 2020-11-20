@@ -3,9 +3,11 @@ public class TryCatchFinally {
 
 	public static void main(String[] args) {
 		
-		System.out.println(test1());
-		System.out.println(test2());
-		System.out.println("Final Result Value " + test3());
+		System.out.println("test1: " + test1());
+		System.out.println("test2: " + test2());
+		System.out.println("test3: " + test3());
+		System.out.println("test4: " + test4());
+
 	}
 	
 	private static String test1(){
@@ -37,13 +39,27 @@ public class TryCatchFinally {
 		int result = 0;
 		try{
 			result++;
-			System.out.println("Result Value in try " + result);
+			//System.out.println("Result Value in try " + result);
 			return result;
 		}catch(Exception e){
 			result++;
 		}finally{
 			result++;
-			System.out.println("Result value in finally " + result);
+			//System.out.println("Result value in finally " + result);
+		}
+		return result;
+	}
+
+	private static int test4(){
+		int result = 0;
+		try{
+			result++;
+			//System.out.println("Result Value in try " + result);
+		}catch(Exception e){
+			result++;
+		}finally{
+			result++;
+			//System.out.println("Result value in finally " + result);
 		}
 		return result;
 	}
