@@ -34,7 +34,7 @@ public class Example4 {
 			try {
 				Method meth = cls1.getMethod("someOperation", cls1);
 				meth.invoke(obj1, obj2);										//==>Output4
-			} catch (NoSuchMethodException ex) {								// OR
+			} catch (NoSuchMethodException | IllegalArgumentException ex) {								// OR
 				ex.printStackTrace(System.out);									//==>Exception4
 			}
 
